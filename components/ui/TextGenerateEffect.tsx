@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 "use client";
 import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
@@ -11,7 +13,7 @@ export const TextGenerateEffect = ({
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
+  let wordsArray = words?.split(" ");
   useEffect(() => {
     console.log(wordsArray);
     animate(

@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Deji, a Next.js Developer based in Germany.
+            Hi! I&apos;m Deji, a Frontend Developer based in Germany.
           </p>
 
           <a href="#about">

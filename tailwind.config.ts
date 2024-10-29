@@ -1,4 +1,5 @@
 /* eslint-disable */
+// good to go
 
 import type { Config } from "tailwindcss";
 

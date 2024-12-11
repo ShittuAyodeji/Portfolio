@@ -72,9 +72,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Modern React 18 Fitness Exercises App",
+    des: "With the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details.",
+    img: "/p11.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://ayodejishittu-gym-app.netlify.app",
   },
@@ -88,16 +88,16 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Modern Blog App",
+    des: "A mobile based only modern blog app built for a customer using React JS and Tailwind CSS ",
+    img: "/p22.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://blogshop.io",
   },
   {
     id: 4,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Ecommerce Store With Admin Dashboard",
+    des: "Created an ecommerce app from scratch with Next.js, Tailwind, Prisma, and TypeScript.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/ShittuAyodeji/ecommerce",
@@ -110,19 +110,21 @@ export const testimonials = [
       "Collaborating with Deji was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Deji's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Deji is the ideal partner.",
     name: "Olubunmi Ogunsusi",
     title: "CEO of Blogshop",
+    img: "/profile2.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Olubunmi Ogunsusi",
-    title: "CEO of VFD Group",
+      "At the time of working together with Deji, we had the opportunity to witness Deji’s great skills and qualities. He has constantly showcased a strong work ethic, outstanding creativity, and great dedication to his work which is truly commendable. ",
+    name: "Nonso Okpala",
+    title: "HR of VFD Group",
+    img: "/profile1.png",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Olubunmi Ogunsusi",
-    title: "CEO of VFD Group",
-  },
+  // {
+  //   quote:
+  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+  //   name: "Olubunmi Ogunsusi",
+  //   title: "CEO of VFD Group",
+  // },
   // {
   //   quote:
   //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -173,29 +175,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer",
+    desc: "Assisted in the development of a web-based platform using Next.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "React Developer",
+    desc: "Developed responsive web applications using React.js, HTML, and CSS.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Web Developer",
+    desc: "Worked closely with back-end developers in their workflow to ensure smooth data flow and seamless full-stack integration.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Database Administrator",
+    desc: "Built database systems of high availability and quality depending on each end user’s specialized role.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

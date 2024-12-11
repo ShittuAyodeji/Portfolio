@@ -1,6 +1,5 @@
 /* eslint-disable */
 
-
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -17,6 +16,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img: any;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -119,7 +119,7 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
+                  <img src={item.img} alt="profile" className="w-20 h-20" />
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
